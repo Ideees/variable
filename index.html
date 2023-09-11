@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+    //  -------------1-------------------
+      console.log("Hello Word");
+      // -------------2-------------------
+      console.log(
+        "My name is M Idrees faiz\nI am Learning JavaScript via Full Stack Bootcamp of DiaaTech.\nI will become best developer by hard work.\nI am doing commitment to do code with consistency."
+      );
+
+      // -------------3-------------------
+      let myName = "M Idrees Faiz",
+        myAge = 20;
+      console.log(
+        "My name is: " + myName + " and I am " + myAge + " years of age."
+      );
+      // -------------4-------------------
+      let firstName = "M Idrees",
+        secondName = "Faiz";
+      console.log(`I'm ${firstName} ${secondName}
+        I am Learning JavaScript via Full Stack Bootcamp of DiaaTech.
+        I will become best developer by hard work.
+        I am doing commitment to do code withc onsistency.`);
+
+      // -------------5-------------------
+      let num1 = prompt("Enter first number");
+      let num2 = prompt("Enter second number:");
+      let sum = parseInt(num1) + parseInt(num2);
+      let sub = parseInt(num1) - parseInt(num2);
+      let multi = parseInt(num1) * parseInt(num2);
+      let divs = parseInt(num1) / parseInt(num2);
+      document.writeln(`The Sum Of The Numbers Is : ${sum} <br>`);
+      document.writeln(`The Subtraction Of The Numbers Is : ${sub}<br>`);
+      document.writeln(`The multiplication Of The Numbers Is : ${multi} <br>`);
+      document.writeln(`The Division Of The Numbers Is : ${divs} <br>`);
+      console.log("Addition is : " + sum);
+      console.log("Subtraction is = " + sub);
+      console.log("Multiplication is = " + multi);
+      console.log("Division  is = " + divs);
+     // -------------6-------------------
+
+      markMass = parseFloat(prompt("Enter mass of Mark"));
+      markHeight = parseFloat(prompt("Enter height of Mark"));
+      johanMass = parseFloat(prompt("Enter mass of Johan"));
+      johanHeight = parseFloat(prompt("Enter height of Johan"));
+      markBMI = markMass / markHeight ** 2;
+      jonasBMI = johanMass / (johanHeight * johanHeight);
+      console.log("Mark's BMI: " + markBMI.toFixed(1));
+      console.log("John's BMI: " + jonasBMI.toFixed(1));
+      const compare = markBMI > jonasBMI;
+      document.writeln(
+        `The mark BMI value is :${markBMI} <br> The Jonas BMI value is :${jonasBMI} <br>`
+      );
+      document.write(compare);
+      console.log("Mark Mass is  : " + markMass);
+      console.log("Mark Height is : " + markHeight);
+      console.log("The Mark BMI is : " + markBMI.toFixed(1));
+      console.log("johan Mass is  : " + johanMass);
+      console.log("johan Height is : " + johanHeight);
+      console.log("The johan BMI is : " + jonasBMI.toFixed(1));
+      console.log("The  BMI  result is : " + compare);
+    </script>
+  </body>
+</html>
